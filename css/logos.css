@@ -1,0 +1,29 @@
+.riot__image{
+    height: 7vh;
+    transition: all 0.5s;
+    filter: brightness(-100%);
+}
+
+.riot__image:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: brightness(-100%) invert(100%);
+}
+
+#logos__separador{
+    color: black;
+    transform: rotate(90deg) translate(-10%, -47%);
+    font-size: 4rem;
+    letter-spacing: 0px;
+}
+
+.lol__image{
+    height: 8vh;
+    transition: all 0.5s;
+}
+
+.lol__image:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: invert(100%) brightness(100%);
+}

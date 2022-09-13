@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: 10vh 1fr 10vh;
+}
+
+:root{
+    --cor-principal: #67faff;
+} 
+
+header{
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2e725d;
+    padding: 0px 30px 0px 20px;
+}
+
+main{
+    grid-area: main;
+    background-color: #131d1d;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #000;
+}
