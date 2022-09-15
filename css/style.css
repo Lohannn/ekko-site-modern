@@ -28,6 +28,8 @@ header{
 main{
     grid-area: main;
     background-color: #131d1d;
+    grid-template-areas: "ekko description";
+    grid-template-rows: 200px 200px;
 }
 
 footer{
