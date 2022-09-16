@@ -1,4 +1,24 @@
 .ekko{
+    font-size: 1.5rem;
     grid-area: ekko;
-    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.ekko__name{
+    transform: translateY(-50%);
+}
+
+.ekko__nickname{
+    transform: translateY(-80%);
+}
+
+.ekko__image{
+    height: 80%;
+    transform: translateY(-2%);
+    border-radius: 50px;
+    background-color: red;
 }

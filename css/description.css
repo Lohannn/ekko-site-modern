@@ -1,4 +1,5 @@
 .description{
     grid-area: description;
     background-color: yellow;
+    height: 70vh;
 }

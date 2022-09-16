@@ -27,9 +27,13 @@ header{
 
 main{
     grid-area: main;
+    display: grid;
     background-color: #131d1d;
-    grid-template-areas: "ekko description";
-    grid-template-rows: 200px 200px;
+    grid-template-areas: 
+        "ekko description";
+    grid-template-columns: 47.1vw 47.1vw;
+    gap: 50px;
+    padding: 30px;
 }
 
 footer{
