@@ -2,4 +2,10 @@
     grid-area: description;
     background-color: yellow;
     height: 70vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seta{
+    color: #1f9991;
+    font-weight: bolder;
 }
